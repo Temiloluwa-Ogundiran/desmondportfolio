@@ -7,6 +7,8 @@ import {
   meta,
   skills,
   services,
+  solution,
+  leadership
 } from "../../content_option";
 
 export const About = () => {
@@ -68,6 +70,38 @@ export const About = () => {
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>
                   <p className="service_desc">{data.description}</p>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lang="5">
+            <h3 className="color_sec py-4">Leadership and Strategic Pieces</h3>
+          </Col>
+          <Col lg="7">
+            {leadership.map((data, i) => {
+              return (
+                <div className="service_ py-4" key={i}>
+                  <h5 className="service__title">{data.title}</h5>
+                  <p className="service_desc">{data.description}</p>
+                </div>
+              );
+            })}
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lang="5">
+            <h3 className="color_sec py-4">Real-World Product Solutions</h3>
+          </Col>
+          <Col lg="7">
+            {solution.map((data, i) => {
+              return (
+                <div className="service_ py-4" key={i}>
+                  <h5 className="service__title">{data.title}</h5>
+                  <p className="service_desc">{data.description}</p>
+                  <p className="service_desc">{data.cdescription}</p>
+                  <p className="service_desc">{data.ccdescription}</p>
                 </div>
               );
             })}

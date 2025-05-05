@@ -57,65 +57,93 @@ const services = [{
     },
 ];
 
+const solution = [{
+    title: "Turning a Slow Onboarding into Scalable User Growth",
+    description: "● Problem: New users dropped off early during onboarding, stalling growth.",
+    cdescription: "● Strategy: I redesigned the onboarding flow, introduced motivational progress bars, and aligned marketing and product teams to reinforce value early.",
+    ccdescription: "●	Outcome: Feature adoption rose by 50%, improving the overall product experience and directly boosting our NPS by 12 points over the following quarter.",
+},
+{
+    title: "Saving a Critical Feature Launch from Underperformance",
+    description: "●	Problem: A newly launched feature underperformed and confused users.",
+    cdescription: "●	Strategy: I led a cross-functional review using customer interviews and analytics, then spearheaded a UX redesign.",
+    ccdescription: "● Outcome: New user activation increased by 20%, strengthening our customer funnel and improving retention benchmarks critical for quarterly growth targets.",
+},
+{
+    title: "Prioritizing High-Impact Work During a Resource Crunch",
+    description: "●	Problem: Too many feature requests, too few developers to deliver them.",
+    cdescription: "●	Strategy: I ran a RICE prioritization with stakeholders, aligning everyone on business-critical outcomes and resource allocation.",
+    ccdescription: "●	Outcome: Focused delivery on three strategic features increased product usage by 15%, kept timelines realistic, and improved cross-team collaboration under resource constraints.",
+},
+{
+    title: "Reducing Churn Through Customer-Centric Support Improvements",
+    description: "●	Problem: Churn spiked, with support delays cited as a major pain point.",
+    cdescription: "●	Strategy: I launched a fast-response live chat solution and restructured ticket handling to prioritize urgent cases.",
+    ccdescription: "●	Outcome: Customer churn dropped by 18%, support CSAT rose 25 points, and we reinforced brand trust during a critical retention phase.",
+},
+];
+
+const leadership = [{
+    title: "Setting OKRs to Align Teams and Drive Growth",
+    description: "The team was all over the place. I introduced OKRs to get everyone moving together. In just six weeks, daily active users jumped 15% because we focused on the right work.",
+},
+{
+    title: "Managing Stakeholder Expectations and Balancing Conflicting Demands",
+    description: "Sales needed a feature fast, Support needed another. I prioritized based on business impact and kept both teams in the loop. We closed a big deal and solved Support’s issue next."
+},
+{
+    title: "Responding to Market Shifts and Competitor Threats",
+    description: "A competitor surprised us with a new feature. I dug into it, rallied my team, and we launched a stronger version fast. We grew market share 10% and kept our users."
+},
+{
+    title: "Balancing Short-Term Wins with Long-Term Vision",
+    description: "Everyone wanted quick wins, but ignoring technical debt wasn’t an option. I worked with Engineering to balance both. We reduced technical debt by 20% while still shipping features people loved"
+},
+{
+    title: "Setting Priorities During Resource Constraints",
+    description: "We didn’t have enough hands to build everything. I led a RICE prioritization with the team, picked high-impact features, and kept stakeholders updated. Result: retention rose 25% and usage grew 15%."
+},
+];
+
 const dataportfolio = [{
-        img: "https://drive.google.com/file/d/1l-abHOKi5E-5RgovcGxlGGHVDojQy28I/view",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/b2ba.jpeg",
+        description: "Campaign Sample",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/b2bc.jpeg",
+        description: "Campaign Sample",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/b2bd.jpeg",
+        description: "Campaign Sample",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/bsbb.jpeg",
+        description: "Campaign Sample",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/s1.jpg",
+        description: "Email Sequence Sample",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/s2.jpg",
+        description: "Email Sequence Sample",
         link: "#",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/s3.jpg",
+        description: "Email Sequence Sample",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/s4.jpg",
+        description: "Email Sequence Sample",
         link: "#",
     },
 ];
@@ -145,4 +173,6 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    solution,
+    leadership,
 };
