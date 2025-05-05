@@ -13,33 +13,99 @@ const introdata = {
 
     },
     description: "My goal is simple: get you more leads, more sales, and better customer loyalty — without wasting time. If you want clear marketing that feels personal and drives real growth, I’m ready to help.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/desmond.jpeg",
 };
 
 const dataabout = {
-    title: "About My Self",
-    aboutme: "I help businesses grow faster with smart words and smart systems. I specialize in copywriting, email marketing, automation, and building funnels that turn clicks into customers. I’m skilled with CRMs and email tools like HubSpot, Klaviyo, Mailchimp, Zoho, Apollo, Brevo, and AutomateWoo.",
+    title: "About",
+    aboutme: "I help Al, Saas, and e-commerce companies grow-with clear product thinking, conversion-focused storytelling, and email marketing that drives results.",
+    aboutme1: "As a Product Manager and Technical Writer, I simplify complexity into action-turning innovative tech into experiences users actually understand and love. I specialize in discovery, onboarding, user flows, and documentation that align product features with real-world customer needs.",
+    aboutme2: "On the email marketing side, I craft automated sequences that build trust, boost retention, and recover lost revenue-whether it's B2B SaaS onboarding, Al product education, or e-commerce re-engagement. My approach blends product insight with content clarity, so every message moves users forward.",
+    aboutme3: "I love working with bold founders and growing teams that care about their users-and want systems that scale.",
+    aboutme4: "Let's connect if you need structure, clarity, and storytelling that grows your product."
+};
+
+const dataskill = {
+    title: "Skill Highlights",
+    aboutme: "Product Discovery & Design",
+    aboutme1: "●	 Wireframing, Prototyping, and Design Thinking",
+    aboutme2: "●	 User-Centric Product Development",
+    aboutme3: "●	 User Feedback & Iterative Improvements",
+    aboutme4: "Growth & Marketing Strategy",
+    aboutme5: "●	 Conversion Rate Optimization (CRO)",
+    aboutme6: "●	 A/B Testing and Experimentation",
+    aboutme7: "●	 Email Marketing and Growth Strategy",
+    aboutme8: "●	 Content Strategy & Technical Writing",
+    aboutme9: "Product Execution & Delivery",
+    aboutme10: "●	 Product Roadmapping & Prioritization",
+    aboutme11: "●	 Data-Driven Decision Making",
+    aboutme12: "●	 Agile & Scrum (Jira, Asana, Trello)",
+};
+
+const dataproduct= {
+    title: "",
+    aboutme: "I believe great products aren’t just built — they’re discovered, shaped, and earned through curiosity, data, and relentless experimentation. ",
+    aboutme1: "My journey into product management started with one question: “What makes people really love a product?” Over time, I found the answer at the intersection of listening, analyzing, testing, and strategizing.",
+    aboutme2: "I approach product discovery like a detective — uncovering hidden needs and validating assumptions early. ",
+    aboutme3: "I use analytics to understand not just what’s happening, but why. I treat experimentation as a habit, using rapid testing to unlock growth. And with strategy, I connect the dots between the small wins and big goals.",
+    aboutme4: "Some wins I’m proud of include:",
+    aboutme5: "●	 Boosting user activation by 20% through onboarding redesign.",
+    aboutme6: "●	 Growing market share by 10% after a competitor release.",
+    aboutme7: "Driven by optimism and backed by data, I’m committed to building products that people love, and keep loving.",
+};
+
+const dataemail = {
+    title: "",
+    aboutme: "I help businesses grow faster with smart words and smart systems. I specialize in copywriting, email marketing, automation, and building funnels that turn clicks into customers. ",
+    aboutme1: "CRMs and email tools like HubSpot, Klaviyo, Mailchimp, Zoho, Apollo, Brevo, and AutomateWoo",
+    aboutme2: "My goal is simple: get you more leads, more sales, and better customer loyalty — without wasting time. If you want clear marketing that feels personal and drives real growth, I’m ready to help.",
+};
+
+const datawriting = {
+    title: "",
+    aboutme: "I’m a technical writer passionate about making complex ideas simple and actionable. I specialize in creating clear, structured manuals and engaging tech blog posts that bridge the gap between technical teams and end-users. ",
+    aboutme1: "With a focus on usability, precision, and storytelling, I deliver documentation that not only informs but empowers. Whether it’s software manuals, or technical articles, my goal is always the same: to make technology accessible, understandable, and impactful.",
+};
+const datastructure = {
+    title: "Structure and Style Showcase",
+    aboutme: "In manuals and tech blog posts, I prioritize clarity, consistency, and user-centered structure. Manuals follow a logical flow—introduction, setup, usage, troubleshooting—using headings, steps, and visuals for quick comprehension",
+    aboutme1: "Tech blogs combine storytelling with technical depth, chunking complex ideas into readable sections with examples, code snippets, and clear calls-to-action. My style is concise, active, and accessible, bridging expertise and usability.",
+};
+
+const writingsample = {
+    title: "Writing Samples",
+    aboutme: "https://coursemea.com/privacy-in-the-era-of-ai-iot-and-big-data/",
+    aboutme1: "https://coursemea.com/how-intent-data-and-al-can-come-together-to-produce-better-personalization/",
+    aboutme2: "https://coursemea.com/advantages-and-disadvantages-of-deep-learning/",
+    aboutme3: "https://docs.google.com/file/d/1kWwgqKHAAqbDZFTURqQPkbn4MvtUQ407/edit?usp=docslist_api&filetype=msword",
+    aboutme4: "https://docs.google.com/file/d/1dtmKRbZF1VcBJ2lFs-BPegd0S7KoD3ar/edit?usp=docslist_api&filetype=msword",
+    aboutme5: "https://docs.google.com/file/d/1QRB8yqQ-kUunB8AlRX7cAls5RkHkHi7w/edit?usp=docslist_api&filetype=msword",
+};
+
+const metrics = {
+    title: "Metrics Driven Results",
+    aboutme: "B2B Email Sequence: ",
+    aboutme1: "●	In a 5-email onboarding sequence for a B2B SaaS platform, my emails achieved a 48% average open rate (industry average: 21%) and a 16% click-through rate (CTR).",
+    aboutme2: "●	After 30 days, the email sequence contributed to a 22% increase in product activation rates and reduced churn in the first month by 15%.",
+    aboutme3: "For an e-commerce abandonment campaign: ",
+    aboutme4: "●	About 38% recovery rate, 9% conversion rate on second email, and a 24% boost in monthly revenue from email alone.",
+    aboutme5: "●	The subject lines tested achieved an average 52% open rate compared to the previous 34%, increasing customer lifetime value (CLV) by 12% over the quarter.",
 };
 
 const skills = [{
-        name: "Email Marketing",
-        value: 90,
+        name: "Email Marketing, CRM & Automation",
+        value: 97,
+        link: "/email"
     },
     {
         name: "Product Management",
-        value: 85,
-    },
-    {
-        name: "Automation",
-        value: 80,
+        value: 92,
+        link: "/product"
     },
     {
         name: "Technical Writing",
-        value: 70,
-    },
-    {
-        name: "Copywriting",
-        value: 85,
+        value: 90,
+        link: "/writing"
     },
 ];
 
@@ -148,6 +214,62 @@ const dataportfolio = [{
     },
 ];
 
+const campaignsample = [{
+    img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/cs1.jpg",
+    description: "Campaign Sample",
+    link: "#",
+},
+{
+    img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/cs2.jpg",
+    description: "Campaign Sample",
+    link: "#",
+},
+{
+    img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/cs3.jpg",
+    description: "Campaign Sample",
+    link: "#",
+},
+{
+    img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/cs4.jpg",
+    description: "Campaign Sample",
+    link: "#",
+},
+
+{
+    img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/cs5.jpg",
+    description: "Campaign Sample",
+    link: "#",
+},
+];
+
+const emailsample = [{
+    img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/es1.jpeg",
+    description: "Campaign Sample",
+    link: "#",
+},
+{
+    img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/es2.jpeg",
+    description: "Campaign Sample",
+    link: "#",
+},
+{
+    img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/es3.jpeg",
+    description: "Campaign Sample",
+    link: "#",
+},
+{
+    img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/es4.jpeg",
+    description: "Campaign Sample",
+    link: "#",
+},
+
+{
+    img: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/es5.jpeg",
+    description: "Campaign Sample",
+    link: "#",
+},
+];
+
 const contactConfig = {
     YOUR_EMAIL: "desmonddickson767@gmail.com",
     YOUR_FONE: "",
@@ -175,4 +297,13 @@ export {
     logotext,
     solution,
     leadership,
+    dataemail,
+    campaignsample,
+    emailsample,
+    metrics,
+    dataproduct,
+    dataskill,
+    datawriting,
+    writingsample,
+    datastructure
 };
