@@ -7,12 +7,12 @@ const meta = {
 const introdata = {
     title: "I’m Desmond Dickson Oghogome",
     animated: {
-        first: "Smart words. Smarter systems. Faster growth.",
-        second: "I write copy and build funnels that turn clicks into customers",
-        third: "I develop mobile Expert with CRMs and email tools like HubSpot, Klaviyo, and more"
+        first: "smart products, smart words, smart emails!",
+        second: " Let me help your product succeed in a competitive market!",
+        third: "."
 
     },
-    description: "My goal is simple: get you more leads, more sales, and better customer loyalty — without wasting time. If you want clear marketing that feels personal and drives real growth, I’m ready to help.",
+    description: "I craft products that sell, words that win trust, and emails that close deals. Every move sharp, every message clean. More leads. More sales. Deeper loyalty. If you want growth powered by strategy, precision, and style, I’m ready when you are.",
     your_img_url: "https://temiloluwa-ogundiran.github.io/desmondportfolio/src/img/desmond.jpeg",
 };
 
